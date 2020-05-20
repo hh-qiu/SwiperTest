@@ -76,6 +76,7 @@ export default {
     //鼠标移出
     start() {
       this.autoLoop();
+      console.log(11111111)
     },
     //下一页
     next() {  
