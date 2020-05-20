@@ -72,8 +72,6 @@ export default {
     //鼠标移入
     stop() {
       clearInterval(this.timer);
-      console.log(2222)
-      console.log(3333)
     },
     //鼠标移出
     start() {
