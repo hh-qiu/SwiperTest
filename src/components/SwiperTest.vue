@@ -73,6 +73,7 @@ export default {
     stop() {
       clearInterval(this.timer);
       console.log(2222)
+      console.log(3333)
     },
     //鼠标移出
     start() {
