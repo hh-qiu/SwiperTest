@@ -72,11 +72,11 @@ export default {
     //鼠标移入
     stop() {
       clearInterval(this.timer);
+      console.log(2222)
     },
     //鼠标移出
     start() {
       this.autoLoop();
-      console.log(11111111)
     },
     //下一页
     next() {  
