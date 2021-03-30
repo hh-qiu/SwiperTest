@@ -116,36 +116,36 @@ export default {
   height: 400px;
   margin: 100px auto;
   position: relative;
-}
-.screen {
-  width: 1280px;
-  height: 400px;
-  position: relative;
-  left: 0;
-  right: 0;
-  margin: auto;
-  overflow: hidden;
-}
-.swiper-group {
-  position: absolute;
-  left: -1280px;
-  top: 0;
-  width: 500%;
-  height: 400px;
-}
-.swiper-group ul {
-  width: 1280px;
-  float: left;
-  display: flex;
-  justify-content: space-between;
-}
-.swiper-group ul li {
-  width: 635px;
-  height: 400px;
-}
-.swiper-group ul li img {
-  width: 100%;
-  height: 100%;
+  .screen {
+    width: 1280px;
+    height: 400px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+    .swiper-group {
+      position: absolute;
+      left: -1280px;
+      top: 0;
+      width: 500%;
+      height: 400px;
+      ul {
+        width: 1280px;
+        float: left;
+        display: flex;
+        justify-content: space-between;
+        li {
+          width: 635px;
+          height: 400px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
 }
 button {
   width: 50px;
